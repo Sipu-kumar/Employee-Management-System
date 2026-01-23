@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.model.Employee;
 import com.example.demo.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:3000", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+// @CrossOrigin(origins = "http://localhost:3000", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(
+  origins = "https://employee-management-system-git-main-sipu-kumars-projects.vercel.app",
+  methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE}
+)
+
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
