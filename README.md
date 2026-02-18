@@ -86,3 +86,5 @@ Make sure PostgreSQL is installed and running before starting the backend.
 The backend runs on port 8080 and the frontend on port 3000 by default.
 
 You can deploy the frontend separately (e.g., Netlify/Vercel) and backend on a server (Heroku/Render).
+
+
